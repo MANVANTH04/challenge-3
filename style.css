@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+body{
+    font-family: 'Big Shoulders Display';
+    font-family: 'Lexend Deca', sans-serif;
+    background: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img, h1, p{
+    padding-left:  40px;
+}
+
+p{
+    font-size: 15px;
+}
+
+img{
+    padding-top: 40px;
+}
+
+.challenge-3{
+    display: flex;
+    flex-basis: 33.33%;
+    width: 60%;
+    height: auto;
+    margin-bottom: 25px;
+}
+.sedans{
+    background: hsl(31, 77%, 52%);
+    
+}
+
+.sedans p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 70px;
+    padding-right: 30px;
+    line-height: 25px;
+}
+
+.sedans h1{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 10px;
+}
+
+.link1{
+    color: hsl(31, 77%, 52%);
+    padding: 14px;
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid;
+}
+
+.link1:hover{
+    background: hsl(31, 77%, 52%);
+    color: white;  
+}
+
+.suvs{
+    background: hsl(184, 100%, 22%);
+
+}
+
+.suvs p{ 
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 70px;
+    padding-right: 30px;
+    line-height: 25px;
+}
+
+.suvs h1{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 10px;
+}
+
+.link2{
+    color: hsl(184, 100%, 22%);
+    padding: 14px;
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid;
+}
+
+.link2:hover{
+    background: hsl(184, 100%, 22%);
+    color: white;  
+}
+
+.luxury{
+    background: hsl(179, 100%, 13%);
+    padding-bottom: 40px;
+}
+
+.luxury p{ 
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 70px;
+    padding-right: 30px;
+    line-height: 25px;
+}
+
+.luxury h1{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 10px;
+}
+
+.link3{
+    color: hsl(179, 100%, 13%);
+    padding: 10px;
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 14px;
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid;
+}
+
+.link3:hover{
+    background: hsl(179, 100%, 13%);
+    color: white;
+}
+
